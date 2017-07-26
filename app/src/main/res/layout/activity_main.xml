@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.alumno.examen25.MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Creacion de usuario "
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+
+<EditText
+    android:id="@+id/et1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Nombre"
+    />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pasword"
+        />
+
+    <EditText
+        android:id="@+id/et4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+
+    <Button
+    android:id="@+id/bt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="aceptar"
+    android:textSize="24sp"
+    android:onClick="Aceptar"
+
+
+    />
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cancelar"
+        android:textSize="24sp"
+        android:onClick="Cancelar"
+        />
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>
